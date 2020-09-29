@@ -1,4 +1,4 @@
-
+/* BODY START*/
   body {
     font-family: 'Lato', sans-serif;
     font-family: 'Merriweather', serif;
@@ -15,8 +15,9 @@
   header {
       margin: 0px;
   }
-  /* NAVBAR */
+/* BODY END*/
 
+  /* NAVBAR START*/
 #homeLink{
     outline-style: solid;
     outline-width: 1px;
@@ -53,6 +54,7 @@
       padding: 16px;
       margin-right: 1em;
       transition-duration: 0.2s;
+      background-color: blu;
   }
   nav a:hover {
       background-color: ;
@@ -88,11 +90,45 @@
       line-height:100%;
       transition-duration:0.3s;
   }
-  #buttonHero{
-      position:absolute;
-      left: 104px;
-      top: 443px;
-  }
+/* HAMBURGER MENU START*/
+#hamMenuPic {
+width: 20px;
+height: 20px;
+}
+#dropDown {
+  display: none;
+}
+#toggle {
+  background-color: #FF6767;
+  padding: 15px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+ul #dropdown {
+  margin:0;
+  padding: 0;
+  list-style-type:none;
+}
+li #hidden{
+  margin:0;
+  padding: 15px;
+  border: 1px solid black;
+}
+img {
+  width: 18px;
+}
+.hamburgerMenu {
+  width:
+  margin: 0 auto;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Open Sans", helvetica, sans-serif;
+}
+/* HAMBURGER MENU END*/
+  /* NAVBAR END*/
+
   /* PRELOAOD START */
   .grid {
     display: grid;
@@ -124,7 +160,6 @@
     left: 220px;
     top: 14px;
   }
-
   @keyframes spin {
     from {
       transform: rotate(180deg);
@@ -134,6 +169,7 @@
     }
   }
 /* PRELOAOD END */
+
 
 /* SAMPLE SECTION START*/
 
@@ -150,6 +186,7 @@
   margin-bottom: %;
   margin-left: 8%;
   background-image: url("../images/HeroImage.png");
+
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -163,7 +200,7 @@
   margin: 0%;
   text-align: left;
 }
-/* Communication for Global Innovation Section Start */
+/* CFGI Section Start */
 #outerCFGI {
   position:relative;
   top: 0;
@@ -208,9 +245,9 @@
    background-repeat: no-repeat;
    background-color: blu;
 }
-/* Communication for Global Innovation Section End */
+/* CFGI Section End */
 
-/* The City of Palo Alto Innovation Section Start */
+/* CPA Section Start */
 #outerCPA {
   position:relative;
   top: 0;
@@ -255,9 +292,9 @@
    background-repeat: no-repeat;
    background-color: blu;
 }
-/* The City of Palo Alto Section End */
+/* CPA Section End */
 
-/* Cubby Mobile App Section Start */
+/* Cubby Section Start */
 #outerCubby {
   position:relative;
   top: 0;
@@ -302,9 +339,38 @@
    background-repeat: no-repeat;
    background-color: blu;
 }
+/* Cubby Section End */
 
-/* Cubby Mobile App Section End */
+/* CONTACT ME START */
+div {
+  margin: 15px;
+}
+.button {
+  background-color: lightGrey;
+  padding: 15px;
+  cursor: pointer;
+  text-align:center;
+  max-width: 150px;
+}
+.hideMe {
+ background-color: red;
+ height: 150px;
+ width: 150px;
+}
+.cssChange {
+  background-color: blue;
+  height: 150px;
+  width: 150px;
+}
+.appendMe {
+  outline: 1px solid red;
+}
+.child {
+  background-color: grey;
+  text-align: center;
+}
 
+/* CONTACT ME END */
 
 /* FOOTER */
 .footer{
