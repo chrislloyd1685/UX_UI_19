@@ -9,7 +9,7 @@
     background-color: #FEF9ED;
     margin: 0px;
     border: 1px solid #A0C658;
-    width: 100vw;
+
     color: #3B3B3B;
   }
   header {
@@ -185,7 +185,7 @@ img {
   margin-right: auto;
   margin-bottom: %;
   margin-left: 8%;
-  background-image: url("../images/HeroImage.png");
+  background-image: url("../images/heroImage.png");
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -230,7 +230,7 @@ img {
   position: absolute;
    top: 20%;
    left: 50%;
-   transform: translateX(-50%) translateY(1400%);
+   transform: translateX(-07%) translateY(1400%);
    color: #FAF9F8;
 }
 
