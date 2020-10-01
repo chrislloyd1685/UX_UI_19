@@ -342,69 +342,41 @@ img {
 /* Cubby Section End */
 
 /* CONTACT ME START */
-div {
-  margin: 15px;
+
+.contactMeSection {
+  display:flex;
+  flex-direction: column;
+   align-items: center;
+  height: 100px;
+  border: 8px solid gree;
 }
-.button {
-  background-color: lightGrey;
-  padding: 15px;
-  cursor: pointer;
-  text-align:center;
-  max-width: 150px;
+.contactMeButton {
+
 }
-.hideMe {
- background-color: red;
- height: 150px;
- width: 150px;
+.animate {
+
 }
-.cssChange {
-  background-color: blue;
-  height: 150px;
-  width: 150px;
+#contactMeButton {
+    width: 85px;
+    height: 25px;
+    justify-content: center;
 }
-.appendMe {
-  outline: 1px solid red;
-}
-.child {
-  background-color: grey;
-  text-align: center;
+#contactMeButton:hover{
+    background-color: #A0C658;
+    box-shadow: 4px 4px 12px rgba(32, 18, 77, 0.6);
+    border-radius: 0px;
 }
 
 /* CONTACT ME END */
-.contactMeSection {
-  height: 200px;
-  position: relative;
-  border: 3px solid green;
-}
-.contactMe {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-.container {
-  height: 200px;
-  position: relative;
-  border: 3px solid green;
-}
 
-.vertical-center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
 
-/* FOOTER */
+/* FOOTER START*/
 .footer{
     display: flex;
     flex-direction: column-reverse;
     margin-top: 160px;
     margin-bottom: 0px;
-    width: 100vw;
+    width: 98vw;
     height: 10em;
     background-color: #FEF9ED;
     justify-content: center;
@@ -435,6 +407,8 @@ div {
     box-shadow: 1px 1px 6px rgba(32, 18, 77, 0.6);
     border-radius: 8px;
 }
+
+/* FOOTER  END*/
 
 @media only screen and (max-width: 600px) {
   body {
